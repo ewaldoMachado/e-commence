@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <h1 class="titulo">E-COMMERCE</h1>
+    <form class="formulario">
+        <section class="left">
+            <h2 class="title">Cadastro de Produtos</h2>
+            <div class="name">
+                <label for="nome-input">Nome do produto</label>
+                <input type="text" id="nome-input">
+            </div>
+            <div class="value">
+                <label for="valor-input">Valor do produto</label>
+                <input type="text" id="valor-input">
+            </div>
+            <div class="description">
+                <label for="descricao-input">Descrição do produto</label>
+                <textarea name="" type="text" id="descricao-input" cols="30" rows="10"></textarea>
+            </div>
+            <button id="enviar">Enviar</button>
+            <span class="helper-text" id="helper-text-post"></span>
+        </section>
+        <section class="right" id="post-container">
+            <h2 class="title">Produtos Cadastrados</h2>
+        </section>
+    </form>
+</body>
+</html>

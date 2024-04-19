@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    margin: 10px;
+}
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    background-color: aqua;
+    gap: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+    gap: 5px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+.title{
+    align-self: center;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+}
+#enviar{
+    margin-top: 5px;
+    padding: 8px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(28, 878%, 40%)
+}
+.helper-text{
+    font-size: .8rem;
+    color: red;
+    padding: 5px;
+}
